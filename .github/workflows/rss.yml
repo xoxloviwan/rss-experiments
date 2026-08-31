@@ -13,6 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       FEED: feed.rutracker.cc
+      FRM: 2198
     steps:
       - name: Checkout code
         uses: actions/checkout@v4

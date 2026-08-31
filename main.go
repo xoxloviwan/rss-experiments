@@ -69,8 +69,7 @@ type PageData struct {
 }
 
 func main() {
-	os.Getenv("FEED")
-	feedURL := fmt.Sprintf("https://%s/atom/f/0.atom", os.Getenv("FEED"))
+	feedURL := fmt.Sprintf("https://%s/atom/f/%s.atom", os.Getenv("FEED"), os.Getenv("FRM"))
 
 	resp, err := http.Get(feedURL)
 	if err != nil {
