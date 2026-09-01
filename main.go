@@ -105,7 +105,7 @@ func main() {
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <title>{{.Title}}</title>
 	    <style>
-	        body { font-family: sans-serif; max-width: 1300px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #333; }
+	        body { background: #18171d; font-family: sans-serif; max-width: 1300px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #333; }
 	        .item { margin-bottom: 10px; border-bottom: 1px solid #eee; padding-bottom: 10px; }
 	        a { color: #0066cc; text-decoration: none; }
 	        a:hover { text-decoration: underline; }
